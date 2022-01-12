@@ -5,7 +5,7 @@ A Terraform module to generate cloud-init multipart content natively without a p
 
 ```hcl
 module "cloud_init_config" {
-  source = "ned1313/native/cloud-init"
+  source = "ned1313/native/cloudinit"
 
   cloudinit_parts = [
     {
